@@ -1,0 +1,60 @@
+step1:
+
+mkdir foldername(like: mkdir venkat)
+
+step2:
+
+cd venkat(foldername)
+
+step3:
+
+virtualenv -p python3 venkyenv(environmentname(anyname))
+
+step4:
+
+source venkyanu/bin/activate
+
+step5:
+
+pip freeze(installations searching)
+
+step6:
+
+pip install python3 django djangorestframework pillow
+
+step7:
+
+pip freeze(type above command result)
+
+step8:
+
+django-admin startproject employ(projectname)
+
+step9:
+
+cd employ
+
+step10:
+
+python manage.py migrate
+
+step11:
+
+python manage.py createsuperuser(default admin)
+
+username:venkat
+email :(skip)
+password:***********(your password)
+
+step12:
+
+python manage.py startapp student(appname)
+
+step13:
+
+code .
+
+step14:
+
+python manage.py runserver
+
