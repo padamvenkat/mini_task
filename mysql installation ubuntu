@@ -1,0 +1,61 @@
+step1:
+
+sudo apt-get autoremove
+
+step2:
+
+sudo apt-get autoclean
+
+step3:
+
+sudo apt-get remove dbconfig-mysql
+
+step4:
+
+sudo apt-get purge mysql*
+
+step5:
+
+sudo rm -rf /etc/mysql
+
+step6:
+
+sudo find / -iname 'mysql*' -exec rm -rf {} \;
+
+step7:
+
+sudo apt-get dist-upgrade
+
+step8:
+
+sudo apt-get install f
+
+step9:
+
+sudo apt-get install mysql-server
+
+step10:
+
+sudo apt purge apparmor
+
+step11:
+
+sudo apt install mysql-common mysql-server
+
+step12:
+
+sudo apt-get install mysql-client libmysqlclient-dev
+
+step13:
+
+sudo mysql -u root -p
+-----------------------------------------------------------------------------------------
+use your system password:(your system password)
+
+mysql
+
+
+
+
+
+
