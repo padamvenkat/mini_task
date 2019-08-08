@@ -1,0 +1,45 @@
+GIT HUB Repository
+-------------------------------
+step1:
+
+sudo apt install git
+
+step2:
+
+git clone https://github.com/venkat/python_beginner.git
+
+step3:
+
+ls & la(hidden files check)
+
+step4:
+
+git status
+
+step5:
+
+git config --global user.email "padamvenkat5@gmail.com"
+
+step6:
+
+git config --global user.name "padamvenkat"
+
+step7:
+
+git add . (adding all files in that folder)
+
+step8:
+
+git status
+
+step9:
+
+git commit -m "(displayname)"
+
+step10:
+
+git push
+
+step11:
+
+password:your password
